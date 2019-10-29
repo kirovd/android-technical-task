@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".user"
+    tools:layout_editor_absoluteY="56dp"
+    tools:showIn="@layout/activity_user">
+
+
+
+    <TextView
+        android:id="@+id/planValue"
+        android:layout_width="190dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="36dp"
+        android:text="Total Plan Value: £7000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userAccounts"
+        android:layout_width="108dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:text="User Acounts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/isa"
+        android:layout_width="252dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="44dp"
+        android:radius="3dip"
+        android:text="Stocks and Shares ISA \nPlan Value: £1000\nMoneybox: $50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userAccounts"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/lisa"
+        android:layout_width="252dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="20dp"
+        android:radius="3dip"
+        android:text="Lifetime ISA \nPlan Value: £4000\nMoneybox: $100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gia"
+        app:layout_constraintVertical_bias="0.017"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/gia"
+        android:layout_width="252dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="24dp"
+        android:radius="3dip"
+        android:text="General Investment Account \nPlan Value: £2000\nMoneybox: $20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isa"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="100dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/planValue" />
+
+
+</android.support.constraint.ConstraintLayout>
