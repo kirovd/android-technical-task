@@ -1,5 +1,4 @@
-# android-technical-task
-# android-technical-task
+
 This is my first Kotlin application that I have created in Android Studio.
 
 
